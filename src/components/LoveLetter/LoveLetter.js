@@ -36,9 +36,9 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Dear buddy🖤,<br />
-        always shine and energetic as you're<br />H@ppiest bday :)<br />
-        always yours,<br />
-        @harika      </div>
+        nee parichayam oka sundara swapnam<br />ne sneham oka sundara kavyam :)<br />enni janmaladho ee sneha bandam <br />ninnu veedanantundhi na hrudayam<br />
+        @chetanBhai,<br />
+              </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
