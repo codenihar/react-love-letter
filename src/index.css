@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  position: absolute;
+background-image: url("./components/LoveLetter/background-img.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100%;
+}
