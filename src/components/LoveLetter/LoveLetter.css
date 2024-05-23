@@ -7,7 +7,7 @@
     margin: 50px auto;
     cursor: pointer;
     perspective: 1000px;
-    background: url('C:\Users\vamsi\Desktop\FUN_Project\react-love-letter-v\src\components\LoveLetter\—Pngtree—valentine s day heart striped_1171178.png');
+    background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -18,7 +18,7 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    background: url('C:\Users\vamsi\Desktop\FUN_Project\react-love-letter-v\src\components\LoveLetter\—Pngtree—valentine s day heart striped_1171178.png');
+    background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
     background-size: cover;
     transform-origin: bottom;
     transition: transform 0.8s ease;
@@ -32,7 +32,7 @@
     top: 50%;
     width: 100%;
     height: 50%;
-    background: url('C:\Users\vamsi\Desktop\FUN_Project\react-love-letter-v\src\components\LoveLetter\—Pngtree—valentine s day heart striped_1171178.png');
+    background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
     background-size: cover;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
