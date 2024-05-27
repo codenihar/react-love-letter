@@ -18,7 +18,7 @@
     position: absolute;
     width: 100%;
     height: 30%;
-    background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg');
+    background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg?raw=true');
     /*background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');*/
     background-size: cover;
     transform-origin: top;
@@ -33,7 +33,7 @@
     top: 50%;
     width: 100%;
     height: 70%;
-   background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg');
+   background: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg?raw=true');
     /*background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');*/
     background-size: cover;
     border-bottom-left-radius: 8px;
@@ -52,7 +52,7 @@
     background: rgba(255,255,255,1);
 
     background-blend-mode: multiply;
-    background-image: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/copy.jpg'),linear-gradient(rgba(0, 0, 0, 10px));
+    background-image: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/copy.jpg?raw=true'),linear-gradient(rgba(0, 0, 0, 10px));
      
     background-position: top;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     width: 100%;
     height: 160vh;
     opacity: 0.35; 
-    background-image: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/copy.jpg');
+    background-image: url('https://github.com/vamdevvamsiR/react-love-letter-v/blob/personal/src/components/LoveLetter/copy.jpg?raw=true');
     background-size: cover;
     box-sizing: border-box;
     background-position: top;
