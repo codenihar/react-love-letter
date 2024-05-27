@@ -2,76 +2,127 @@
 
 .envelope {
     position: relative;
-    width: 600px;
-    height: 400px;
-    margin: 50px auto;
+    width: 1300px;
+    height: 600px;
+    margin: 30px auto;
     cursor: pointer;
     perspective: 1000px;
     background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.6s ease;
+    transition: transform 1s ease; 
   }
   
   .flap {
     position: absolute;
     width: 100%;
-    height: 50%;
-    background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
+    height: 30%;
+    background: url('C:\Users\vamsi\Downloads\vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724_695\vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg');
+    /*background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');*/
     background-size: cover;
-    transform-origin: bottom;
+    transform-origin: top;
     transition: transform 0.8s ease;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
-  
+    
   .body {
-    position: absolute;
+    position: sticky;
     top: 50%;
     width: 100%;
-    height: 50%;
-    background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');
+    height: 70%;
+    background: url('C:\Users\vamsi\Downloads\vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724_695\vecteezy_trendy-seamless-pattern-with-cute-3d-hearts-vector-red_36711724.jpg');
+    /*background: url('https://raw.githubusercontent.com/vamdevvamsiR/react-love-letter-v/personal/src/components/LoveLetter/%E2%80%94Pngtree%E2%80%94valentine%20s%20day%20heart%20striped_1171178.png');*/
     background-size: cover;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    transition: transform 1.5s ease;
+    transform-origin:bottom;
     z-index: -1;
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
   }
- 
+
   .letter {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 100%;
     width: 100%;
-    height: 50%;
-    background: #fff;
-    overflow: hidden;
-    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100vh;
+    background: rgba(255,255,255,1);
+
+    background-blend-mode: multiply;
+    background-image: url('C:/Users/vamsi/Downloads/copy.jpg'),linear-gradient(rgba(0, 0, 0, 10px));
+     
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior:smooth;
+    overflow: scroll;
+    transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
     transform-origin: bottom;
     z-index: -2;
     opacity: 0;
-    font-family: "Sedan", serif;
-    font-weight: 400;
+    font-family: 'Dramatico', cursive;
+    text-wrap:stable;
+    font-weight: 600;
     font-style: normal;
     font-size: 20px;
+    text-shadow: 1px 4px 4px rgba(27, 27, 27, 0.5);
     padding: 20px;
+    font: outline 1px;
     box-sizing: border-box;
     text-align: justify;
+    background-attachment:scroll ; 
+ 
   }
+
+  .letter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160vh;
+    opacity: 0.35; 
+    background-image: url('C:/Users/vamsi/Downloads/copy.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    z-index: -1;
+   }
   
   .open .flap {
+    transform: rotateX(180deg);
+    animation: fadeOut 0.8s forwards;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .open .body {
+    animation: fadeOut 1s forwards;
     transform: rotateX(-180deg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  }
-  
+    
+    }
+    
+    @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+    } 
+    .open .letter{
+      background-image:cross-fade(2)
+    }
+
   .letter.fullSize {
     top: 0%;
     height: 100%;  /* Expand to full screen */
     opacity: 1;
     z-index: -2;
     transform: scale(1);
-   /* Scale up if necessary */
+    
+    font-family: 'Dramatico', cursive; /* Scale up if necessary */
   }
   
